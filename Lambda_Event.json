@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2022-01-08T15:45:32.606Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "A1NQ9XDR1WPL1"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "49.37.160.136"
+      },
+      "responseElements": {
+        "x-amz-request-id": "34PSTAYY4VJ89HG6",
+        "x-amz-id-2": "xu/Fg2Z6PHJKkNR2SFGfOVCTnYcpokBzOLeEUalJd3UL6yKHmbDdYj8QkVpu8DWItmjROGdGwgTTG22tIYYUwNytfCHbXoKw"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "ba0fd884-5b15-494d-9389-4192e4fa256e",
+        "bucket": {
+          "name": "data-staging-bucket-team-e",
+          "ownerIdentity": {
+            "principalId": "A1NQ9XDR1WPL1"
+          },
+          "arn": "arn:aws:s3:::data-staging-bucket-team-e"
+        },
+        "object": {
+          "key": "raw_data/sampledata.csv",
+          "size": 1356788,
+          "eTag": "bcb67068b1a6474c89508dfadd302ec6",
+          "sequencer": "0061D9B19C7FB5BA0B"
+        }
+      }
+    }
+  ]
+}
